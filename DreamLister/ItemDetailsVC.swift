@@ -328,8 +328,12 @@ class ItemDetailsVC: UIViewController, UITextViewDelegate, UIPickerViewDelegate,
         itemTypes.append(type5)
         
         let type6 = ItemType(context: context)
-        type6.type = "Miscellaneous"
+        type6.type = "Car"
         itemTypes.append(type6)
+        
+        let type7 = ItemType(context: context)
+        type7.type = "Miscellaneous"
+        itemTypes.append(type7)
         
         ad.saveContext()
     }
